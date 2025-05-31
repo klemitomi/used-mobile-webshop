@@ -27,13 +27,13 @@ A web application for buying and selling used mobile devices.
 - MongoDB Atlas account or local MongoDB installation
 
 ### Installation
-# Install server dependencies
+# Install server dependencies:
 ```bash
 cd backend
 npm install
 node index.js
 
-# Install frontend dependencies
+### Install frontend dependencies:
 ```bash
 cd frontend
 cd my-app
