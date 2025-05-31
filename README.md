@@ -34,7 +34,7 @@ npm install
 node index.js
 
 ### Install frontend dependencies:
-```bash
+
 cd frontend
 cd my-app
 npm install
