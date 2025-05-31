@@ -1,0 +1,82 @@
+.LoginPage {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-box {
+    width: 500px;
+    padding: 20px;
+    border: 1px solid #b9aeae;
+    border-radius: 5px;
+}
+
+.login-box input {
+    border: 1px solid #5c5454;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    width: 100%;
+    height: 40px;
+}
+
+.login-box input[type="submit"] {
+    background-color: #5c5454;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    margin: 5px;
+}
+
+.login-box input[type="submit"]:hover {
+    background-color: #000;
+}
+
+.login-box a {
+    text-decoration: none;
+    color: #5c5454;
+    font-size: 16px;
+    margin: 5px;
+}
+
+.login-box a:hover {
+    color: #2e2c2c;
+}
+
+.login-box h2 {
+    text-align: center;
+}
+
+.login-box form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-box form input[type="submit"] {
+    margin-top: 20px;
+}
+
+.login-box form a {
+    margin-top: 10px;
+}
+
+.login-box form a:hover {
+    color: #2e2c2c;
+}
+
+button[type="submit"] {
+    background-color: #3d5fce;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    margin: 5px;
+}
+
+button[type="submit"]:hover {
+    background-color: #7e75ad;
+}

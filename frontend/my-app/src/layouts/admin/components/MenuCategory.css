@@ -1,0 +1,116 @@
+
+.container-fluid {
+    background-color: #f8f9fa;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  
+  .card {
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.01);
+  }
+  
+ 
+  .card-header {
+    background-color: #6c757d; 
+    font-weight: 600;
+    font-size: 1.1rem;
+    border-radius: 1rem 1rem 0 0;
+  }
+  
+  
+  .list-group-item {
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    border: none;
+    padding: 1rem;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .list-group-item:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .list-group-item.active {
+    background-color: #0d6efd;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+  }
+  
+  
+  .badge {
+    font-size: 1rem;
+    padding: 0.5em 0.8em;
+    border-radius: 0.75rem;
+  }
+  
+  
+  label.form-label {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+  
+  input.form-control,
+  textarea.form-control,
+  select.form-select {
+    border-radius: 0.75rem;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    border: 1px solid #ced4da;
+    background-color: #fff;
+    transition: border-color 0.2s ease;
+  }
+  
+  input.form-control:focus,
+  textarea.form-control:focus,
+  select.form-select:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+    outline: none;
+  }
+  
+  
+  button.btn {
+    border-radius: 0.75rem;
+    padding: 0.6rem 1.2rem;
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  
+  button.btn-outline-primary:hover,
+  button.btn-outline-danger:hover {
+    transform: scale(1.02);
+  }
+  
+  
+  .preview-img {
+    border-radius: 0.75rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    max-height: 200px;
+    width: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .preview-img:hover {
+    transform: scale(1.03);
+  }
+  
+  
+  .alert-warning {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    padding: 0.75rem 1rem;
+    border-radius: 0.75rem;
+    background-color: #fff3cd;
+    color: #856404;
+    display: none;
+  }
+  

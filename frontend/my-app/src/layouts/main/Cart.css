@@ -1,0 +1,111 @@
+.cart-product-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 0.5rem;
+  }
+  
+  .cart-empty-state {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+  }
+  
+  .cart-product-list-item {
+    transition: background-color 0.3s ease;
+  }
+  
+  .cart-product-list-item:hover {
+    background-color: #e9ecf0;
+  }
+
+  
+/* Termék beúszás */
+@keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateX(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .cart-product-list-item {
+    animation: slideIn 0.5s ease-out;
+  }
+  
+  /* Eltávolítás animáció */
+  @keyframes fadeOut {
+    from {
+      opacity: 1;
+      max-height: 100px;
+    }
+    to {
+      opacity: 0;
+      max-height: 0;
+      margin: 0;
+      padding: 0;
+    }
+  }
+  
+  .cart-item-remove {
+    animation: fadeOut 0.5s forwards;
+  }
+  
+  .cart-product-list-item {
+    transition: all 0.3s ease;
+  }
+  
+  .cart-product-list-item:hover {
+    background-color: #f8f9fa;
+    transform: scale(1.01);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+
+  .btn-group button {
+    transition: all 0.3s ease;
+  }
+  
+  .btn-group button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+  
+
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .total-price-highlight {
+    animation: pulse 1s infinite;
+    color: #007bff;
+  }
+  
+
+  @keyframes floating {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  .cart-empty-state p {
+    animation: floating 2s ease-in-out infinite;
+  }
