@@ -9,7 +9,8 @@
 Built with React and Bootstrap, designed for clean UI and smooth user experience.
 
 ## 🎬 Demo / Screenshot
-![Webshop Screenshot](https://user-images.githubusercontent.com/YOUR_USERNAME/demo-screenshot.png)
+![Webshop Home](frontend/my-app/assets/homepage.png)
+![CRUD Demo](frontend/my-app/assets/webshopcart.gif)
 
 ## 🔥 Key Technologies
 
